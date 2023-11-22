@@ -1,0 +1,31 @@
+/* src/components/CalculatorPage.css */
+
+.CalculatorPage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+
+  .InputRow {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .InputRow label {
+    margin-right: 10px;
+  }
+  
+  .InputBox {
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* Additional styles for the scroll-down input */
+  .SelectBox {
+    width: 200px; /* Adjust the width as needed */
+  }
+  

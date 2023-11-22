@@ -1,0 +1,103 @@
+/* src/components/CombinedStyles.css */
+
+/* Banner Styles */
+.Banner {
+  width: 100%;
+  height: 200px; /* Adjust the height as needed */
+  background: url("C:\Users\rishi\myenergyanalysis\public\banner.jpeg") no-repeat center center fixed;
+  background-size: cover;
+  margin:auto;
+}
+
+.HeaderName {
+  text-align: center;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #fff; /* Adjust the color as needed */
+  z-index: 1; /* Set a higher z-index to bring it above the banner */
+}
+
+.HeaderName h1 {
+  font-family: 'Blockhead', sans-serif;
+  font-size: 3em;
+  margin-bottom: 3px;
+}
+
+/* Header Styles */
+.HeaderContent {
+  text-align: center;
+  position: relative;
+  margin-top: 5px;
+  margin-bottom: auto;
+  font-family: 'Caveat', cursive;
+  font-family: 'Libre Baskerville', serif;
+  font-family: 'Montserrat', sans-serif;
+
+  color: #000; /* Black text */
+}
+h1 {
+  font-family: 'Blockhead', sans-serif;
+  font-size: 3em;
+  margin-bottom: 3px;
+}
+.border{
+  border-bottom: 10px dotted #80ced6; /* Dotted border, adjust thickness and color as needed */
+  padding-bottom: 10px; /* Adjust as needed to create space between text and border */
+  width: 10%; /* Adjust the width to control the length of the dotted border */
+  margin: 0 auto; /* Center the content */
+}
+.Subtitle {
+  font-size: 1.5em;
+  margin-bottom: 20px;
+}
+
+/* Description Styles */
+.Description {
+  font-size: 1.2em;
+  margin-bottom: 30px;
+}
+.DescriptionText{
+  font-family: 'Inter Tight', sans-serif;
+  text-align: center;
+padding-left: 10%;
+padding-right: 10%;
+
+}
+
+
+/* TeamMembers Styles */
+.TeamMembers {
+  text-align: left;
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  color: #333; /* Dark gray text */
+}
+
+.TeamMembers h2 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.TeamMembers ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.TeamMembers li {
+  font-size: 1.2em;
+  margin-bottom: 5px;
+}
+.CalculatorButton {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #3498db; /* Blue color */
+  color: #fff; /* White text */
+  padding: 10px 20px;
+  font-size: 1.2em;
+  text-decoration: none;
+  border-radius: 5px;
+}
